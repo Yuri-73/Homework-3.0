@@ -4,7 +4,6 @@ public class Main {
         task2();
         task3();
         task4();
-        task5();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -44,47 +43,18 @@ public class Main {
         int age1 = 5;
         int age2 = 10;
         int age3 = 19;
-        int age4 = 23;
-        int age5 = 24;
+        int age4 = 25;
         if (age1 >= 2 && age1 <= 6) {
-            System.out.println("Если возраст человека равен " + age1 + " ,то ему нужно ходить в детский сад");
+            System.out.println("Если возраст человека равен " + age1 + " ,то ему нажно ходить в детский сад");
         }
         if (age2 >= 7 && age2 <= 18) {
-            System.out.println("Если возраст человека равен " + age2 + " ,то ему нужно ходить в школу");
+            System.out.println("Если возраст человека равен " + age2 + " ,то ему нажно ходить в школу");
         }
         if (age3 > 18 && age3 < 24) {
             System.out.println("Если возраст человека равен " + age3 + " ,то его место в институте");
         }
-        if (age4 >= 24)
-           System.out.println("Если возраст человека равен " + age4 + " ,то ему пора ходить на работу");
-        else
-           if(age4 >= 2 && age4 <= 6)
-              System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в детский сад");
-           else
-              if(age4 >= 7 && age4 <= 18)
-                 System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в школу");
-              else
-                 if(age4 > 18 && age4 < 24)
-                    System.out.println("Если возраст человека равен " + age4 + " ,то его место в институте");
-        if (age5 >= 24)
-            System.out.println("Если возраст человека равен " + age5 + " ,то уже ему пора ходить на работу");
-    }
-    public static void task5() {
-        System.out.println("Задача 5");
-        int age1 = 4;
-        int age2 = 13;
-        boolean adult = false;
-        int age3 = 15;
-
-        if (age1 < 5) {
-            System.out.println("Если возраст ребёнка " + age1 + " года,кататься на аттракционе нельзя");
-        }
-        if ((age2 > 5 && age2 < 14) && adult) {
-            System.out.println("Если возраст ребёнка " + age2 + " лет, можно кататься, но в сопровождении взрослого");
-        } else
-            System.out.println("Кататься на аттракционе в возрасте " + age2 + " лет без сопровождения взрослого нельзя");
-        if (age3 > 14) {
-            System.out.println("Если возраст ребёнка " + age3 + " лет,то можно кататься на аттракционе без сопровождения взрослого");
+        if (age4 >= 24) {
+            System.out.println("Если возраст человека равен " + age4 + " ,то ему пора ходить на работу");
         }
     }
 }

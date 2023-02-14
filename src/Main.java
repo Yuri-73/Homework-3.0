@@ -45,7 +45,7 @@ public class Main {
         int age2 = 10;
         int age3 = 19;
         int age4 = 23;
-        int age5 = 24;
+        int age5 = 25;
         if (age1 >= 2 && age1 <= 6) {
             System.out.println("Если возраст человека равен " + age1 + " ,то ему нужно ходить в детский сад");
         }
@@ -58,16 +58,16 @@ public class Main {
         if (age4 >= 24)
             System.out.println("Если возраст человека равен " + age4 + " ,то ему пора ходить на работу");
         else
-        if(age4 >= 2 && age4 <= 6)
-            System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в детский сад");
-        else
-        if(age4 >= 7 && age4 <= 18)
-            System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в школу");
-        else
-        if(age4 > 18 && age4 < 24)
-            System.out.println("Если возраст человека равен " + age4 + " ,то его место в институте");
+           if(age4 >= 2 && age4 <= 6)
+              System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в детский сад");
+           else
+              if(age4 >= 7 && age4 <= 18)
+                 System.out.println("Если возраст человека равен " + age4 + " ,то ему нужно ходить в школу");
+              else
+                 if(age4 > 18 && age4 < 24)
+                    System.out.println("Если возраст человека равен " + age4 + " ,то его место в институте");
         if (age5 >= 24)
-            System.out.println("Если возраст человека равен " + age5 + " ,то уже ему пора ходить на работу");
+            System.out.println("Если возраст человека равен " + age5 + " ,то ему уже пора ходить на работу");
     }
     public static void task5() {
         System.out.println("Задача 5");

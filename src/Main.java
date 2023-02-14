@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -90,6 +91,24 @@ public class Main {
            else
                if(adult1)
                   System.out.println("Если пассажиров в вагоне " + passengers + " ,то никаких мест нет");
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        int one = 5;
+        int two = 23;
+        int three = 84;
+        boolean adult1 = (one > two && one > three);
+        boolean adult2 = (two > one && two > three);
+        boolean adult3 = (three > one && three > two);
+
+        if (adult1)
+           System.out.println("Число one = " + one + " самое большее");
+        else
+           if (adult2)
+              System.out.println("Число two = " + two + " самое большее");
+           else
+              if(adult3)
+                 System.out.println("Число three = " + three + " самое большее");
     }
 }
 
